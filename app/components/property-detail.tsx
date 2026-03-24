@@ -55,7 +55,7 @@ export function PropertyDetail({ id }: PropertyDetailProps) {
             <div className="grid grid-cols-2 gap-4 mb-6">
               <div className="bg-gray-800/50 p-4 rounded-lg">
                 <h3 className="text-lg font-semibold text-gray-300">Price</h3>
-                <p className="text-2xl font-bold text-[#3B82F6]">${property.price.toLocaleString()}</p>
+                <p className="text-2xl font-bold text-[#3B82F6]">${property.price.toLocaleString('en-US')}</p>
               </div>
               <div className="bg-gray-800/50 p-4 rounded-lg">
                 <h3 className="text-lg font-semibold text-gray-300">Expected ROI</h3>
