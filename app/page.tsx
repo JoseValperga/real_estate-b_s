@@ -62,7 +62,7 @@ export default function Page() {
                   <h3 className="text-lg font-semibold text-white">{property.title}</h3>
                   <p className="text-sm text-gray-300 mt-1">{property.location}</p>
                   <div className="flex justify-between items-center mt-4">
-                    <span className="text-[#3B82F6] font-bold">${property.price.toLocaleString()}</span>
+                    <span className="text-[#3B82F6] font-bold">${property.price.toLocaleString('en-US')}</span>
                     <span className="text-[#10B981]">Expected ROI: {property.roi}%</span>
                   </div>
                   <Link href={`/property/${property.id}`}>
